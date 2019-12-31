@@ -1,0 +1,19 @@
+# HOW TO EDIT THIS FILE:
+# The "handy ruler" below makes it easier to edit a package description.
+# Line up the first '|' above the ':' following the base package name, and
+# the '|' on the right side marks the last column you can put a character in.
+# You must make exactly 11 lines for the formatting to be correct.  It's also
+# customary to leave one space after the ':' except on otherwise blank lines.
+
+  |-----handy-ruler------------------------------------------------------|
+perl-local-lib:
+perl-local-lib: This module provides a quick, convenient way of
+perl-local-lib: bootstrapping a user-local Perl module library located
+perl-local-lib: within the perl-local-lib: user's home directory. It also
+perl-local-lib: constructs and prints out for the user the list of
+perl-local-lib: environment variables using the syntax appropriate for the
+perl-local-lib: user's current shell (as specified by the SHELL
+perl-local-lib: environment variable), suitable for directly adding to
+perl-local-lib: one's shell configuration file.
+perl-local-lib: 
+perl-local-lib:
