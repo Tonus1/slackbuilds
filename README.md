@@ -52,11 +52,11 @@ sqg -p avahi musepack-tools ncmpcpp rofi fzf perl-JSON-XS perl-file-slurper perl
 
 Beware, in the queue, for avahi and google-go-lang :
 - avahi : create avahi user and group before building
-`# groupadd -g 214 avahi
-# useradd -u 214 -g 214 -c Avahi -d /dev/null -s /bin/false avahi`
+`# groupadd -g 214 avahi`
+`# useradd -u 214 -g 214 -c Avahi -d /dev/null -s /bin/false avahi`
 - google-go-lang : after the build put it in the path otherwise fzf will fail to build
-`# export PATH=$PATH:"/usr/share/gocode"
-# export GOPATH="$HOME"`
+`# export PATH=$PATH:"/usr/share/gocode"`
+`# export GOPATH="$HOME"`
 
 
 
