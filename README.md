@@ -8,32 +8,32 @@ Clerk is a command-line friendly MPD client using rofi or fzf.
 I use it with ncmpcpp and tagging habilities. 
 
 #### Features:
-Play random album/tracks
-Add/Replace albums/songs
-Filter lists by rating
-Customizable hotkeys
-Rofi and fzf interfaces
-Optional tmux interface for fzf mode
-Rate albums/tracks
-Optionally store ratings in file tags
+- Play random album/tracks
+- Add/Replace albums/songs
+- Filter lists by rating
+- Customizable hotkeys
+- Rofi and fzf interfaces
+- Optional tmux interface for fzf mode
+- Rate albums/tracks
+- Optionally store ratings in file tags
 
 #### Dependencies:
-rofi (https://github.com/DaveDavenport/rofi)
-fzf
-tmux
-perl-net-mpd
-perl-data-messagepack
-perl-data-section-simple
-perl-file-slurper
-perl-Config-Simple
-perl-Try-Tiny
-perl-ipc-run
-perl-http-date
+- rofi (https://github.com/DaveDavenport/rofi)
+- fzf
+- tmux
+- perl-net-mpd
+- perl-data-messagepack
+- perl-data-section-simple
+- perl-file-slurper
+- perl-Config-Simple
+- perl-Try-Tiny
+- perl-ipc-run
+- perl-http-date
 
 #### Dependencies for the tagging_client:
-metaflac (flac)
-vorbiscomment (vorbis-tools)
-mid3v2 (mutagen)
+- metaflac (flac)
+- vorbiscomment (vorbis-tools)
+- mid3v2 (mutagen)
 
 ### To build the clerk package with sbopkg
 
@@ -78,5 +78,5 @@ Beware, in the queue, for avahi and google-go-lang :
 
 Please note I still have to finish the clerk.Slackbuild : just clone it's repo, add to path and launch
 
-`clerk.pl -f`
+`$ clerk.pl -f`
 
