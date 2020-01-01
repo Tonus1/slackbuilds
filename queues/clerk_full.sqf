@@ -25,3 +25,4 @@ perl-data-section-simple
 perl-http-tiny
 perl-local-lib
 @perl-net-mpd.sqf
+clerk
