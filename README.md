@@ -76,7 +76,7 @@ Beware, in the queue, for avahi and google-go-lang :
 #### Load clerk_full queue file
 `# sbopkg -i clerk_full`
 
-Please note I still have to finish the clerk.Slackbuild : just clone it's repo, add to path and launch
+Please note I still have to finish the clerk.Slackbuild : for now just clone it's repo, add to path and launch
 
 `$ clerk.pl -f`
 
